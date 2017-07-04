@@ -18,12 +18,45 @@
         android:layout_marginStart="8dp" />
 
     <EditText
-        android:id="@+id/email"
+        android:id="@+id/number"
         android:layout_width="395dp"
         android:layout_height="wrap_content"
-        android:hint="e-mail"
+        android:hint="Number"
         android:layout_marginTop="8dp"
         app:layout_constraintTop_toBottomOf="@+id/name"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="8dp" />
+
+    <EditText
+        android:id="@+id/business"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:hint="Business"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/number"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="8dp" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/business"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="8dp" />
+
+    <EditText
+        android:id="@+id/territory"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:hint="Territory"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/address"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginStart="8dp" />
@@ -34,7 +67,7 @@
         android:layout_height="wrap_content"
         android:text="Create Contact"
         android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/email"
+        app:layout_constraintTop_toBottomOf="@+id/territory"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="8dp"
